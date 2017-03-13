@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
     <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
-
     <script id="article-template" type="text/x-handlebars-template">
       <article class="clearfix" data-author="{{author}}" data-category="{{category}}">
         <header>
@@ -77,7 +76,6 @@
     <footer>
       &copy; 2017 Code Fellows | Static Blog | Happy Ipsum!
     </footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="/vendor/scripts/handlebars.js"></script>
     <script src="/vendor/scripts/marked.js"></script>
@@ -85,6 +83,8 @@
     <script src="/scripts/articleView.js"></script>
     <script>
       // TODO: What model function do we need to call, to initiate the retrieval of data?
+      // DONE: Added the two functions into Index
+      Article.fetchAll();
     </script>
   </body>
 </html>
